@@ -12,6 +12,12 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+
+  /* SOLUTION */
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  padding: 10px;
 }
 
 .profile-image {
@@ -45,4 +51,31 @@ a {
 
 ul {
   list-style-type: none;
+
+  /* SOLUTION */
+  display: flex;
+  padding: 0;
+  margin: 0;
+  gap: 16px;
+  /* align-items: center; */
+}
+
+/* SOLUTION */
+/* .left {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.right {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+} */
+
+.left,
+.right {
+  display: flex;
+  gap: 16px;
+  align-items: center;
 }
