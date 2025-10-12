@@ -1,7 +1,6 @@
 body {
   font-family: 'Courier New', Courier, monospace;
-  
-  /* SOLUTION */
+
   text-align: center;
 }
 
@@ -14,35 +13,8 @@ img {
   font-size: 36px;
   font-weight: 900;
 
-  /* WRONG SOLUTION */
-  /* text-align: center; */
-  margin: 32px;
+  margin-bottom: 32px;
 }
-
-.plants {
-  display: flex;
-  justify-content: center;
-  gap: 52px;
-}
-
-.plant {
-  /* WRONG SOLUTION */
-  /* display: flex;
-  flex-direction: column;
-  padding: 32px; */
-  max-width: 200px;
-}
-
-/* WRONG SOLUTION */
-/* .text {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.image {
-  display: flex;
-  justify-content: center;
-} */
 
 /* do not edit this footer */
 .footer {
@@ -56,3 +28,15 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.item {
+  max-width: 200px;
+}
+
+/* * {outline: 1px solid black} */

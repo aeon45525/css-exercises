@@ -21,9 +21,8 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 
-  /* SOLUTION */
   display: flex;
-  gap: 16px;
+  gap: 8px;
   padding: 16px;
 }
 
@@ -39,7 +38,6 @@ body {
   align-items: center;
   justify-content: center;
 
-  /* SOLUTION */
   flex-shrink: 0;
 }
 
@@ -76,16 +74,17 @@ button.cancel {
   color: royalblue;
 }
 
-/* SOLUTION */
 .header {
   display: flex;
-  justify-content: center;
   justify-content: space-between;
-  font-size: 18px;
+  align-items: center;
   font-weight: 700;
+  font-size: large;
   margin-bottom: 8px;
 }
 
 .text {
   margin-bottom: 16px;
 }
+
+/* * {outline: 1px solid black} */
